@@ -175,5 +175,19 @@
 		</pluginRepository>
 	</pluginRepositories>
 	
-</project>
+	<distributionManagement>
+		<site>
+			<id>www.nuclos.de</id>
+			<url>scp://www.nuclos.de/www/docs/project/</url>
+		</site>
+		<repository>
+			<id>releases.maven.novabit.de</id>
+			<url>http://maven.nuclos.de/content/repositories/releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots.maven.novabit.de</id>
+			<url>http://maven.nuclos.de/content/repositories/snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
 
+</project>
